@@ -54,7 +54,7 @@ public class Main {
                 for (int i = 0; i < monthlyReport.length; i++) {
                     System.out.println("Статистика за месяц " + (i + 1));
                     monthlyReport[i].printMonthlyReport();
-                    System.out.println("******************");
+                    System.out.println("*******************");
                 }
             } else if (command == 5) {
                 yearlyReport.printYearlyReport();
